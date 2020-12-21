@@ -14,6 +14,7 @@ function App() {
 			<Route path='/about' exact component={About} />
 			<Route
 				path='/:id'
+				exact
 				render={(props) => <ProjectDetails id={props.match.params.id} />}
 			/>
 			<Icons />
