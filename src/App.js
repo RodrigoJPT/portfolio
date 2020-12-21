@@ -4,7 +4,7 @@ import { Route, Redirect } from 'react-router-dom';
 import Portfolio from './Portfolio';
 import About from './About';
 import ProjectDetails from './ProjectDetails';
-
+import Icons from './Icons';
 function App() {
 	return (
 		<div className='App'>
@@ -16,6 +16,7 @@ function App() {
 				path='/portfolio/:id'
 				render={(props) => <ProjectDetails id={props.match.params.id} />}
 			/>
+			<Icons />
 		</div>
 	);
 }

@@ -1,26 +1,32 @@
 [
 	{
+		"name": "Standard Jiu Jitsu",
+		"description": "An instructional video platform for students at Standard Jiu Jitsu in Rockville, MD. The front end is built with react and the back end is built with express and firebase for user authentication and a database. This app is in continued development.",
+		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
+		"tech": ["Javascript", "ReactJS", "Firebase"],
+		"link": "http://standardjj.netlify.app/",
+		"repo": "https://github.com/RodrigoJPT/standardjj-fe"
+	},
+	{
+		"name": "Curatr",
+		"description": "An app for sharing curated lists of video games built using React, Express, and MongoDB. This was a week long group project where I took on the role of scrum master and lead front end dev (while also having a hand in the back end development). For this project I challenged myself to apply secure form validation on the front end before sending information to our back end, where I added further security using JSON web tokens and passport.js. Front and back ends hosted on Heroku.",
+		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
+		"link": "https://curatrp3ga.herokuapp.com/",
+		"repo": "https://github.com/Davinki-Coders/Project-3-fe",
+		"tech": ["React", "MongoDB", "Javascript"]
+	},
+	{
 		"name": "SameVibe",
-		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
+		"link": "https://same-vibe.herokuapp.com/home",
+		"repo": "https://github.com/RodrigoJPT/same-vibe",
+		"description": "A music discovery app for finding songs that sound similar to songs users already know they love using listening data from the Last.FM api. The api has lost a lot of it's original functionality which presented unique challenges that I was still able to work through. Hosted on Heroku",
 		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
 		"tech": ["Javascript", "ReactJS"]
 	},
 	{
-		"name": "SameVibe",
-		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
+		"name": "TV Trivia",
+		"description": "A TV show trivia game made with pure Javascript and the Open Trivia Database api. Hosted on Github Pages",
 		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
-		"tech": ["Javascript", "ReactJS"]
-	},
-	{
-		"name": "SameVibe",
-		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
-		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
-		"tech": ["Javascript", "ReactJS"]
-	},
-	{
-		"name": "SameVibe",
-		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
-		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
-		"tech": ["Javascript", "ReactJS"]
+		"tech": ["Javascript"]
 	}
 ]

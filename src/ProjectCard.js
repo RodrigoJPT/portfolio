@@ -15,9 +15,9 @@ const ProjectCard = ({ project, id }) => {
 			<div className='project-info'>
 				<h2>{project.name}</h2>
 				<ul>
-					{project.tech.map((tech, index) => (
+					{/* {project.tech.map((tech, index) => (
 						<li key={index}>{tech}</li>
-					))}
+					))} */}
 				</ul>
 			</div>
 		</button>

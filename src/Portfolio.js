@@ -16,7 +16,7 @@ const Portfolio = () => {
 		return <p>Loading...</p>;
 	}
 	return (
-		<div className='portfolio main'>
+		<div className='portfolio'>
 			<p className='description'>
 				Hello. My name is{' '}
 				<span style={{ color: '#44724a', fontWeight: '700' }}>
@@ -30,9 +30,11 @@ const Portfolio = () => {
 				You can <Link to='/about'>click here</Link> to learn more about me, or
 				view some of my work below.
 			</p>
-			{projects.map((project, index) => (
-				<ProjectCard key={index} project={project} id={index} />
-			))}
+			<div className='project-gallery'>
+				{projects.map((project, index) => (
+					<ProjectCard key={index} project={project} id={index} />
+				))}
+			</div>
 		</div>
 	);
 };
