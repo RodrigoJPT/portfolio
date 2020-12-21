@@ -5,7 +5,7 @@ const ProjectDetails = ({ id }) => {
 	const [project, setProject] = useState(null);
 
 	useEffect(() => {
-		fetch('/projects.json')
+		fetch('https://rodrigojpt.github.io/portfolio/projects.json')
 			.then((res) => res.json())
 			.then((data) => setProject(data[id]))
 			.catch(console.err);

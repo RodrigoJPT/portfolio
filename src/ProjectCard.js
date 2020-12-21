@@ -5,7 +5,7 @@ const ProjectCard = ({ project, id }) => {
 	const history = useHistory();
 
 	const handleClick = () => {
-		history.push(`/portfolio/${id}`);
+		history.push(`/${id}`);
 	};
 	return (
 		<button className='project-card' onClick={handleClick}>
