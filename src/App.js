@@ -11,7 +11,7 @@ function App() {
 			<Header />
 			{/* <Route path='/' exact render={() => <Redirect to='/portfolio' />} /> */}
 			<Route path='/' exact component={Portfolio} />
-			<Route path='/about' component={About} />
+			<Route path='/about' exact component={About} />
 			<Route
 				path='/:id'
 				render={(props) => <ProjectDetails id={props.match.params.id} />}
