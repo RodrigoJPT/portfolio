@@ -17,7 +17,7 @@ const ProjectDetails = ({ id }) => {
 
 	return (
 		<div className='details'>
-			<Link to='/portfolio'>{'< Back to Portfolio'}</Link>
+			<Link to='/'>{'< Back to Portfolio'}</Link>
 			<img src={project.image} alt='' />
 			<h1 className='details-title'>{project.name}</h1>
 			<div className='project-info'>

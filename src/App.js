@@ -13,8 +13,7 @@ function App() {
 			<Route path='/' exact component={Portfolio} />
 			<Route path='/about' exact component={About} />
 			<Route
-				path='/:id'
-				exact
+				path='/projects/:id'
 				render={(props) => <ProjectDetails id={props.match.params.id} />}
 			/>
 			<Icons />
