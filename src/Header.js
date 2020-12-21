@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<header>
-			<h1>Rodrigo Pereira</h1>
+			<Link to='/'>
+				<h3>{'</>'}</h3>
+			</Link>
 			<nav>
-				<Link to='/about'>About</Link>
+				<Link to='/about'>About Me</Link>
 				<Link to='/portfolio'>Portfolio</Link>
 			</nav>
 		</header>

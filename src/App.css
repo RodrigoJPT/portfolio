@@ -1,11 +1,11 @@
-/* bg: #F5F7F3 fg: #1E3321 font: #010203 */
+/* bg: #F5F7F3 fg: #44724a font: #010203 */
 
 body,
 html {
 	font-family: 'Roboto', sans-serif;
 	color: #010203;
-	background-color: #f9f9f9;
-	width: 100vw;
+	background-color: #ffffff;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -14,9 +14,10 @@ h1,
 h2,
 h3,
 h4 {
-	color: #27482c;
+	color: #44724a;
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -30,6 +31,147 @@ header {
 nav a {
 	margin: 0 7px;
 	text-decoration: none;
-	color: #27482c;
+	color: #44724a;
 	font-weight: bold;
+}
+
+a {
+	color: #44724a;
+	font-weight: bold;
+}
+
+header a {
+	text-decoration: none;
+}
+
+.about {
+	/* height: calc(100vh - 50px); */
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+.description {
+	margin: 10px;
+}
+
+.project-card {
+	width: 100%;
+	margin: 5px 0;
+	padding: 0;
+	border: none;
+	background: none;
+	background-color: none;
+	box-shadow: 0 5px 6px -6px black;
+}
+
+.project-info {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	align-items: center;
+	color: white;
+	background-color: #44724a;
+	width: 100%;
+}
+
+.project-info h2 {
+	color: white;
+	margin: 0 5px;
+}
+
+.project-info ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.project-info ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.project-img {
+	width: 100%;
+	height: 56.25vw;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+.details {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.details img {
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+
+.details-title {
+	margin: 0;
+	padding: 0 5px;
+}
+
+.details-description {
+	margin: 0;
+	padding: 0 5px;
+}
+
+.details .project-info {
+	color: #010203;
+	background: none;
+	background-color: none;
+	margin: 0 0 3 0;
+	padding: 0;
+}
+
+.details a {
+	text-decoration: none;
+	margin: 7px;
+	display: inline-block;
+}
+
+.about-container {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	display: block;
+}
+
+.about-description {
+	margin: 30 auto;
+	line-height: 25px;
+	padding: 0 5px;
+	text-align: center;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.icons {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	font-size: 70px;
+}
+
+@media (hover: hover) {
+	nav a:hover {
+		border-bottom: 2px solid #44724a;
+	}
+	.details a:hover {
+		text-decoration: underline;
+		margin: 7px;
+		display: inline-block;
+	}
+	.icons i:hover {
+		transform: translateY(-2px);
+	}
 }

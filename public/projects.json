@@ -1,0 +1,26 @@
+[
+	{
+		"name": "SameVibe",
+		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
+		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
+		"tech": ["Javascript", "ReactJS"]
+	},
+	{
+		"name": "SameVibe",
+		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
+		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
+		"tech": ["Javascript", "ReactJS"]
+	},
+	{
+		"name": "SameVibe",
+		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
+		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
+		"tech": ["Javascript", "ReactJS"]
+	},
+	{
+		"name": "SameVibe",
+		"description": "Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah Lorem ipsum blah blah ",
+		"image": "https://github.com/RodrigoJPT/same-vibe/raw/dev/public/Screenshot.png?raw=true",
+		"tech": ["Javascript", "ReactJS"]
+	}
+]
