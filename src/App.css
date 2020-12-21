@@ -166,6 +166,12 @@ header a {
 	margin: 15px auto;
 }
 
+.details-links a {
+	color: white;
+	background-color: #44724a;
+	padding: 10px;
+}
+
 @media (hover: hover) {
 	nav a:hover {
 		border-bottom: 2px solid #44724a;
@@ -174,6 +180,10 @@ header a {
 		text-decoration: underline;
 		margin: 7px;
 		display: inline-block;
+	}
+	.details-links a:hover {
+		text-decoration: none;
+		transform: scale(1.02, 1.02);
 	}
 	.icons i:hover {
 		transform: translateY(-2px);

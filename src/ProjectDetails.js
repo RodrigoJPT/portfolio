@@ -28,6 +28,14 @@ const ProjectDetails = ({ id }) => {
 				</ul>
 			</div>
 			<p className='details-description'>{project.description}</p>
+			<div className='details-links'>
+				<a href={project.link} target='_blank' rel='noreferrer'>
+					Visit Site
+				</a>
+				<a href={project.repo} target='_blank' rel='noreferrer'>
+					View Code
+				</a>
+			</div>
 		</div>
 	);
 };
