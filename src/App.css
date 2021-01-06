@@ -63,7 +63,7 @@ header a {
 	border: none;
 	background: none;
 	background-color: none;
-	box-shadow: 0 5px 6px -6px black;
+	box-shadow: 0 0 5px 2px rgb(175, 175, 175);
 }
 
 .project-info {
@@ -179,7 +179,6 @@ header a {
 	}
 	.details a:hover {
 		text-decoration: underline;
-		margin: 7px;
 		display: inline-block;
 	}
 	.details-links a:hover {
