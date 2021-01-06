@@ -32,9 +32,11 @@ const ProjectDetails = ({ id }) => {
 				<a href={project.link} target='_blank' rel='noreferrer'>
 					Visit Site
 				</a>
-				<a href={project.repo} target='_blank' rel='noreferrer'>
-					View Code
-				</a>
+				{project.repo ? (
+					<a href={project.repo} target='_blank' rel='noreferrer'>
+						View Code
+					</a>
+				) : null}
 				{project.video ? (
 					<a href={project.video} target='_blank' rel='noreferrer'>
 						Demo Video
