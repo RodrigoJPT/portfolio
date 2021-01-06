@@ -1,11 +1,12 @@
 [
 	{
 		"name": "Standard JJ",
-		"description": "An instructional video platform for students at a martial arts gym in Rockville, MD. The front end is built with React and the back end is built with express using firebase for user authentication and a database. This app is in continued development. The app content is exlusive to the gym's students, so I have prepared a demo video to show the app's features. The video can be watched <a href='https://youtu.be/IUb3lBlNdA8' target='_blank', rel='noreferrer'>here.</a>",
+		"description": "An instructional video platform for students at a martial arts gym in Rockville, MD. The front end is built with React and the back end is built with express using firebase for user authentication and a database. This app is in continued development. The app content is exlusive to the gym's students, so I have prepared a demo video to show the app off",
 		"image": "https://rodrigojpt.github.io/portfolio/media/standard_screen.png",
 		"tech": ["Javascript", "ReactJS", "Express", "Firebase"],
 		"link": "http://standardjj.netlify.app/",
-		"repo": "https://github.com/RodrigoJPT/standardjj-fe"
+		"repo": "https://github.com/RodrigoJPT/standardjj-fe",
+		"video": "https://youtu.be/IUb3lBlNdA8"
 	},
 	{
 		"name": "Curatr",

@@ -35,6 +35,11 @@ const ProjectDetails = ({ id }) => {
 				<a href={project.repo} target='_blank' rel='noreferrer'>
 					View Code
 				</a>
+				{project.video ? (
+					<a href={project.video} target='_blank' rel='noreferrer'>
+						Demo Video
+					</a>
+				) : null}
 			</div>
 		</div>
 	);
