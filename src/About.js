@@ -5,7 +5,7 @@ const About = () => {
 		<div className='about'>
 			<div className='about-container'>
 				<img
-					src='https://rodrigojpt.github.io/media/myself.jpeg'
+					src='https://www.rodrigocodes.com/media/myself.jpeg'
 					alt='Rodrigo outdoors'
 					className='profile-pic'
 				/>
