@@ -2,7 +2,7 @@
 	{
 		"name": "Standard JJ",
 		"description": "An instructional video platform for students at a martial arts gym in Rockville, MD. The front end is built with React and the back end is built with express using firebase for user authentication and a database. The app content is exlusive to the gym's students, so I have prepared a demo video to show the app's basic functionality.",
-		"image": "https://rodrigojpt.github.io/media/standard_screen.png",
+		"image": "https://www.rodrigocodes.com/media/standard_screen.png",
 		"tech": ["Javascript", "ReactJS", "Express", "Firebase"],
 		"link": "http://standardjj.netlify.app/",
 		"repo": "https://github.com/RodrigoJPT/standardjj-fe",
@@ -11,7 +11,7 @@
 	{
 		"name": "Curatr",
 		"description": "An app for sharing curated lists of video games built using React, Express, and MongoDB. This was a week long group project where I took on the role of scrum master and lead front end dev (while also having a hand in the back end development). For this project I challenged myself to apply secure form validation on the front end before sending information to our back end, where I added further security using JSON web tokens and passport.js. Front and back ends hosted on Heroku.",
-		"image": "https://rodrigojpt.github.io/media/curatr_screen.png",
+		"image": "https://www.rodrigocodes.com/media/curatr_screen.png",
 		"link": "https://curatrp3ga.herokuapp.com/",
 		"repo": "https://github.com/Davinki-Coders/Project-3-fe",
 		"tech": ["ReactJS", "MongoDB", "Javascript", "Express"]
@@ -21,22 +21,22 @@
 		"link": "https://same-vibe.herokuapp.com/home",
 		"repo": "https://github.com/RodrigoJPT/same-vibe",
 		"description": "A music discovery app for finding songs that sound similar to songs users already know they love using listening data from the Last.FM api. The api has lost a lot of it's original functionality which presented unique challenges that I was still able to work through. Hosted on Heroku",
-		"image": "https://rodrigojpt.github.io/media/sv_screen.png",
+		"image": "https://www.rodrigocodes.com/media/sv_screen.png",
 		"tech": ["Javascript", "ReactJS"]
 	},
 	{
 		"name": "TV Trivia",
-		"link": "https://rodrigojpt.github.io/js-trivia/",
+		"link": "https://www.rodrigocodes.com/js-trivia/",
 		"repo": "https://github.com/RodrigoJPT/js-trivia",
 		"description": "A TV show trivia game made with pure Javascript and the Open Trivia Database api. Hosted on Github Pages",
-		"image": "https://rodrigojpt.github.io/media/trivia_screen.png",
+		"image": "https://www.rodrigocodes.com/media/trivia_screen.png",
 		"tech": ["Javascript"]
 	},
 	{
 		"name": "VolleyFall",
 		"link": "https://roddi.itch.io/volleyfall",
 		"description": "A game made with the Godot engine. The idea came from combining mario, pong, and brick breaker! Unfortunately, the source code was lost and I was not able to complete the original game. There are two unfinished playable builds, one as a multiplayer only HTML build and one MacOS executable that includes the first version of a single player AI. I plan to re-build this game in a new engine and re-release it.",
-		"image": "https://rodrigojpt.github.io/media/vf_screen.png",
+		"image": "https://www.rodrigocodes.com/media/vf_screen.png",
 		"tech": ["Godot"]
 	},
 	{
@@ -44,7 +44,7 @@
 		"link": "https://appsource.microsoft.com/en-us/product/office/WA104381279",
 		"repo": "https://github.com/Inflectra/spira_office365-excel",
 		"description": "A Microsoft Excel Add-on that allows clients to log in to their SpiraTeam project management software account and import data from their projects into a spreadsheet, or export data from a spreadsheet to their projects. This was an internship project I completed for Inflectra, and they have continued building on top of it in the years since I started it.",
-		"image": "https://rodrigojpt.github.io/media/spira_screen.png",
+		"image": "https://www.rodrigocodes.com/media/spira_screen.png",
 		"tech": ["Javascript", "OfficeJS"]
 	}
 ]
