@@ -3,7 +3,7 @@
 		"name": "Standard JJ",
 		"description": "An instructional video platform for students at a martial arts gym in Rockville, MD. The front end is built with React and the back end is built with express using firebase for user authentication and a database. The app content is exlusive to the gym's students, so I have prepared a demo video to show the app's basic functionality.",
 		"image": "https://rodrigojpt.github.io/media/standard_screen.png",
-		"tech": ["Javascript", "ReactJS", "Express", "Firebase"],
+		"tech": ["Javascript", "ReactJS", "Firebase"],
 		"link": "http://standardjj.netlify.app/",
 		"repo": "https://github.com/RodrigoJPT/standardjj-fe",
 		"video": "https://youtu.be/IUb3lBlNdA8"
@@ -14,7 +14,7 @@
 		"image": "https://rodrigojpt.github.io/media/curatr_screen.png",
 		"link": "https://curatrp3ga.herokuapp.com/",
 		"repo": "https://github.com/Davinki-Coders/Project-3-fe",
-		"tech": ["ReactJS", "MongoDB", "Javascript", "Express"],
+		"tech": ["ReactJS", "MongoDB", "Javascript"],
 		"wakeup": ["https://curatrp3ga.herokuapp.com/", "https://davinkibackend.herokuapp.com/test"]
 	},
 	{
@@ -47,6 +47,6 @@
 		"repo": "https://github.com/Inflectra/spira_office365-excel",
 		"description": "A Microsoft Excel Add-on that allows clients to log in to their SpiraTeam project management software account and import data from their projects into a spreadsheet, or export data from a spreadsheet to their projects. This was an internship project I completed for Inflectra, and they have continued building on top of it in the years since I started it.",
 		"image": "https://rodrigojpt.github.io/media/spira_screen.png",
-		"tech": ["Javascript", "OfficeJS"]
+		"tech": ["Javascript"]
 	}
 ]
