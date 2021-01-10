@@ -7,7 +7,12 @@ const ProjectDetails = ({ id }) => {
 	useEffect(() => {
 		fetch('https://rodrigojpt.github.io/portfolio/projects.json')
 			.then((res) => res.json())
-			.then((data) => setProject(data[id]))
+			.then((data) => {
+				setProject(data[id])
+				return data[id]})
+			.then(project => {if(project.wakeup){
+				project.wakeup.forEach(url => fetch(url));
+			}})
 			.catch(console.err);
 	}, []);
 
