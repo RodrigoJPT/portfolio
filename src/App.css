@@ -166,6 +166,11 @@ header a {
 	margin: 15px auto;
 }
 
+.details-links {
+	display: flex;
+	justify-content: center;
+}
+
 .details-links a {
 	color: white;
 	background-color: #44724a;
