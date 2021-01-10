@@ -25,7 +25,9 @@ const ProjectDetails = ({ id }) => {
 	return (
 		<div className='details'>
 			<Link style={{fontSize: '14px'}} to='/'><i className="fas fa-chevron-left"></i>{' Back'}</Link>
+			<div className='detail-container'>
 			<img src={project.image} alt='' />
+			<div>
 			<h1 className='details-title'>{project.name}</h1>
 			<div className='project-info'>
 				<TechUsed project={project}/>
@@ -45,6 +47,8 @@ const ProjectDetails = ({ id }) => {
 						Demo Video
 					</a>
 				) : null}
+			</div>
+			</div>
 			</div>
 		</div>
 	);
