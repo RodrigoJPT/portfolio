@@ -10,39 +10,8 @@ const About = () => {
 					className='profile-pic'
 				/>
 				<p className='about-description'>
-					Hello. My name is{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>
-						Rodrigo Pereira
-					</span>
-					, and I am a{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>
-						web developer
-					</span>{' '}
-					based in{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>
-						Washington, DC.
-					</span>{' '}
-					I specialize in creating{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>web apps</span>{' '}
-					with{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>
-						Javascript
-					</span>{' '}
-					and the tools built on top of it, but I can bring my skills to just
-					about any development environment. Outside of being a developer, my
-					passions include{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>
-						combat sports
-					</span>{' '}
-					{'(particularly,'}{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>
-						submission grappling/jiu jitsu
-					</span>
-					{'), filming and editing '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>videos</span>
-					{', '}
-					and playing{' '}
-					<span style={{ color: '#44724a', fontWeight: '700' }}>music!</span> I
+					Hello. My name is <b>Rodrigo Pereira</b>, and I am a full stack web developer based in Washington, DC. I specialize in creating web apps with Javascript and the tools built on top of it, but I can bring my skills to just about any development environment. I have an affinity for the front end, and my priorities are always keeping things simple, clean, and efficient. Outside of being a developer, my
+					passions include combat sports (particularly submission grappling/jiu jitsu), filming/editing videos, and playing music! I
 					look forward to getting to know you!
 				</p>
 			</div>
