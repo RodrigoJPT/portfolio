@@ -6,7 +6,7 @@ const Portfolio = () => {
 	const [projects, setProjects] = useState(null);
 
 	useEffect(() => {
-		fetch('https://rodrigojpt.github.io/projects.json')
+		fetch('/projects.json')
 			.then((res) => res.json())
 			.then((data) => setProjects(data))
 			.catch(console.err);

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import TechUsed from './TechUsed'
 
 const ProjectCard = ({ project, id }) => {
 	const history = useHistory();
@@ -14,11 +15,9 @@ const ProjectCard = ({ project, id }) => {
 				style={{ backgroundImage: `url(${project.image})` }}></div>
 			<div className='project-info'>
 				<h2>{project.name}</h2>
-				<ul>
-					{/* {project.tech.map((tech, index) => (
-						<li key={index}>{tech}</li>
-					))} */}
-				</ul>
+				<div>
+				<TechUsed project={project}/>
+			</div>
 			</div>
 		</button>
 	);

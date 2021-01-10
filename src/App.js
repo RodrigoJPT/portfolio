@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Header';
-import { Route, Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Portfolio from './Portfolio';
 import About from './About';
 import ProjectDetails from './ProjectDetails';

@@ -63,7 +63,7 @@ header a {
 	border: none;
 	background: none;
 	background-color: none;
-	box-shadow: 0 0 5px 2px rgb(175, 175, 175);
+	box-shadow: 0 0 2px rgb(175, 175, 175);
 }
 
 .project-info {
@@ -114,7 +114,7 @@ header a {
 }
 
 .details-title {
-	margin: 5px 0;
+	margin: 0;
 	padding: 0 5px;
 }
 
@@ -171,6 +171,18 @@ header a {
 	background-color: #44724a;
 	padding: 10px;
 	margin-top: 15px;
+}
+
+.tech-used {
+	max-height: 25px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 5px;
+}
+
+.tech-used img {
+	height: 25px;
+	width: 25px;
 }
 
 @media (hover: hover) {
