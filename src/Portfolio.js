@@ -18,8 +18,7 @@ const Portfolio = () => {
 	return (
 		<div className='portfolio'>
 			<p className='description'>
-				Hello. My name is <b>Rodrigo Pereira</b>, and I am a <b>full stack developer</b> with an affinity for the front end.
-				.<br />
+				Hello. My name is <b>Rodrigo Pereira</b>, and I am a <b>full stack developer</b> with an affinity for the front end.<br />
 				You can <Link to='/about'>click here</Link> to learn more about me, or
 				view some of my work below:
 			</p>
