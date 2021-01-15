@@ -1,7 +1,9 @@
 {
-    "Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
-    "ReactJS": "https://img.icons8.com/plasticine/100/000000/react.png",
-    "Firebase": "https://img.icons8.com/color/48/000000/firebase.png",
-    "MongoDB": "https://img.icons8.com/color/48/000000/mongodb.png",
-    "Godot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/600px-Godot_icon.svg.png"
+	"Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
+	"ReactJS": "https://img.icons8.com/plasticine/100/000000/react.png",
+	"Firebase": "https://img.icons8.com/color/48/000000/firebase.png",
+	"MongoDB": "https://img.icons8.com/color/48/000000/mongodb.png",
+	"Godot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/600px-Godot_icon.svg.png",
+	"Wordpress": "https://s.w.org/style/images/about/WordPress-logotype-wmark.png",
+	"Woocommerce": "https://logos-download.com/wp-content/uploads/2016/09/Woo_logo_Woo_Commerce-700x418.png"
 }
