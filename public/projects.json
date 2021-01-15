@@ -14,7 +14,7 @@
 		"image": "https://rodrigojpt.github.io/media/curatr_screen.png",
 		"link": "https://curatrp3ga.herokuapp.com/",
 		"repo": "https://github.com/Davinki-Coders/Project-3-fe",
-		"tech": ["ReactJS", "MongoDB", "Javascript"],
+		"tech": ["Javascript", "ReactJS", "MongoDB"],
 		"wakeup": [
 			"https://curatrp3ga.herokuapp.com/",
 			"https://davinkibackend.herokuapp.com/test"
