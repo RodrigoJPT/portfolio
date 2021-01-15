@@ -15,7 +15,10 @@
 		"link": "https://curatrp3ga.herokuapp.com/",
 		"repo": "https://github.com/Davinki-Coders/Project-3-fe",
 		"tech": ["ReactJS", "MongoDB", "Javascript"],
-		"wakeup": ["https://curatrp3ga.herokuapp.com/", "https://davinkibackend.herokuapp.com/test"]
+		"wakeup": [
+			"https://curatrp3ga.herokuapp.com/",
+			"https://davinkibackend.herokuapp.com/test"
+		]
 	},
 	{
 		"name": "SameVibe",
@@ -33,6 +36,13 @@
 		"description": "A TV show trivia game made with pure Javascript and the Open Trivia Database api. Hosted on Github Pages",
 		"image": "https://rodrigojpt.github.io/media/trivia_screen.png",
 		"tech": ["Javascript"]
+	},
+	{
+		"name": "Dream Home",
+		"description": "An e-commerce solution set up for a small local record label using Wordpress and Woocommerce, as well as some simple CSS and PHP tweaks to make it as simple as the client was asking for",
+		"image": "https://rodrigojpt.github.io/media/dh_screen.png",
+		"link": "https://dreamhomerecords.com/",
+		"tech": ["Wordpress", "Woocommerce"]
 	},
 	{
 		"name": "VolleyFall",

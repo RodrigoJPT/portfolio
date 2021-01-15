@@ -187,6 +187,7 @@ header a {
 .tech-used img {
 	height: 25px;
 	width: 25px;
+	object-fit: scale-down;
 }
 
 @media (hover: hover) {
@@ -229,7 +230,7 @@ header a {
 	}
 }
 
-@media (min-width: 670px){
+@media (min-width: 670px) {
 	.detail-container {
 		display: flex;
 		justify-content: center;
